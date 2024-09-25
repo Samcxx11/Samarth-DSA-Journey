@@ -49,4 +49,6 @@ Graph Algorithms (DFS, BFS, Dijkstra's, etc.)
 
 > **Note**: Stay consistent and keep practicing every day. 💪
 
-![Motivation](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDN1cGd0aDJhdWNuZG5kYTF5eWw3M2R4dnNuNXJjNGx3cTI2OWx3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Dh5q0sShxgp13DwrvG/giphy.webp)
+![Motivation](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHdnOXl2cTd4M2NxNW81emFiamtsbjVsd2E4NTVqcDZoYW53YjRsaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hKafco7mFwBioBxqFT/giphy.webp)
+
+
