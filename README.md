@@ -29,18 +29,18 @@ Welcome to my **Data Structures and Algorithms** journey! I'm learning, practici
 
 | Topic                | Status         |
 |----------------------|----------------|
-| Arrays               | ✔️ Completed    |
-| Linked Lists         | 🚧 In Progress |
-| Stacks & Queues      | ⏳ Not Started  |
+| Arrays               | ⌛ In Progress |
+| Linked Lists         | 🌵 Not Started |
+| Stacks & Queues      | 🌵 Not Started |
 
 ---
 
 ## 🛠️ Tools
 - **Language**: C++
-- **Platform**: LeetCode, Codeforces, HackerRank
+- **Platform**: LeetCode, Codeforces, HackerRank , CodeShef
 
 ---
 
 > **Note**: Stay consistent and keep practicing every day. 💪
 
-![Motivation](https://media.giphy.com/media/l41YtZOb9EUABnuqA/giphy.gif)
+![Motivation](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDN1cGd0aDJhdWNuZG5kYTF5eWw3M2R4dnNuNXJjNGx3cTI2OWx3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Dh5q0sShxgp13DwrvG/giphy.webp)
