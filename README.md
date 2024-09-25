@@ -44,6 +44,7 @@ Graph Algorithms (DFS, BFS, Dijkstra's, etc.)
 ## 🛠️ Tools
 - **Language**: C++
 - **Platform**: LeetCode, Codeforces, HackerRank , CodeShef
+- **Resources**: DSA series by Code Help and Striver DSA a2z sheet. 
 
 ---
 
