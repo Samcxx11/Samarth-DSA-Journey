@@ -2,13 +2,6 @@
 
 Welcome to my **Data Structures and Algorithms** journey! I'm learning, practicing, and documenting everything here as I work to become a more proficient problem-solver. Let's explore some core concepts and tackle coding challenges together!
 
-## 📑 Table of Contents
-1. [Why DSA?](#why-dsa)
-2. [Goals](#goals)
-3. [Progress](#progress)
-4. [Notes](#notes)
-5. [Tools](#tools)
-
 ---
 
 ## 📝 Why DSA?
@@ -25,13 +18,26 @@ Welcome to my **Data Structures and Algorithms** journey! I'm learning, practici
 
 ---
 
-## 📊 Progress
+# 🗂️ Structure
+Here's how I'm organizing this repository:
 
-| Topic                | Status         |
-|----------------------|----------------|
-| Arrays               | ⌛ In Progress |
-| Linked Lists         | 🌵 Not Started |
-| Stacks & Queues      | 🌵 Not Started |
+## 1. Data Structures
+Arrays
+Linked Lists
+Stacks & Queues
+Trees (Binary Trees, Binary Search Trees)
+Heaps
+Graphs
+Hash Tables
+
+## 2. Algorithms
+Searching (Binary Search, etc.)
+Sorting (Bubble, Merge, Quick, etc.)
+Recursion
+Dynamic Programming
+Greedy Algorithms
+Backtracking
+Graph Algorithms (DFS, BFS, Dijkstra's, etc.)
 
 ---
 
