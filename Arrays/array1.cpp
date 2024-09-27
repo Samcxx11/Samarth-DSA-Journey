@@ -6,6 +6,7 @@ using namespace std;
 //* why we use array -> to store multiple values in single variable.
 
 
+
 int printArray(int arr[], int size){
 
     cout<<"Elements are :"<<endl;
