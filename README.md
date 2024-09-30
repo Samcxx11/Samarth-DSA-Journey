@@ -15,6 +15,9 @@ Welcome to my **Data Structures and Algorithms** journey! I'm learning, practici
 - Solve **100 problems** on LeetCode.
 - Master **sorting algorithms**.
 - Learn **dynamic programming**.
+- Master **DSA**.
+- Complete **Interview Questions**.
+
 
 ---
 
