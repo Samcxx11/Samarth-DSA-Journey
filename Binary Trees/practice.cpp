@@ -2,35 +2,41 @@
 using namespace std;
 
 class node{
+
     public:
+
         int data;
         node* left;
         node* right;
 
         node(int d){
-            data =d;
+            data = d;
             left = nullptr;
             right = nullptr;
         }
+
+
 };
 
-node* build_tree(node* root){
-    
-    cout<<"Data: "<<" ";
+node* built_tree(node* root){
+    cout<<"Value: "<<endl;
     int data;
     cin>>data;
 
     root = new node(data);
 
-    if(data == -1){
-        return NULL;
+    if(data ==-1){
+        return nullptr;
     }
 
-    cout<<"Enter data in left of "<<data<<" ";
-    root->left = build_tree(root->left);
 
-    cout<<"Enter data in right of "<<data<<" ";
-    root->right = build_tree(root->right);
+    cout<<"Enter data in left of "<<data<<endl;
+    root->left = built_tree(root->left);
+
+    cout<<"Enter data in right of "<<data<<endl;
+    root->right = built_tree(root->right);
+
+    return root;
 
 }
 
@@ -43,7 +49,7 @@ void LOT(node* root){
         node* temp = q.front();
         q.pop();
 
-        if(temp == NULL){
+        if(temp==NULL){
             cout<<endl;
             if(!q.empty()){
                 q.push(NULL);
@@ -61,42 +67,41 @@ void LOT(node* root){
     }
 }
 
-node* inorder(node* root){
+void inorder(node* root){
     if(root==NULL){
-        return NULL;
+        return ;
     }
 
     inorder(root->left);
     cout<<root->data<<" ";
     inorder(root->right);
 
-    return root;
+    
 }
 
-node* preorder(node* root){
+void preorder(node* root){
     if(root==NULL){
-        return NULL;
+        return ;
     }
 
     cout<<root->data<<" ";
     preorder(root->left);
     preorder(root->right);
 
-    return root;
-
+    
 }
 
-node* postorder(node* root){
+
+void postorder(node* root){
     if(root==NULL){
-        return NULL;
+        return ;
     }
 
     postorder(root->left);
     postorder(root->right);
     cout<<root->data<<" ";
 
-    return root;
-
+    
 }
 
 
@@ -106,36 +111,23 @@ node* postorder(node* root){
 int main()
 {
     node* root = nullptr;
- 
-    root = build_tree(root);
+
+    root = built_tree(root);
 
     cout<<endl;
     LOT(root);
-
     cout<<endl;
 
-    cout<<"inorder: "<<endl;
+    cout<<"Inorder: "<<endl;
     inorder(root);
 
     cout<<endl;
     cout<<"preorder: "<<endl;
     preorder(root);
-    
+
     cout<<endl;
     cout<<"postorder: "<<endl;
     postorder(root);
 
 
-    // 1 2 4 -1 -1 5 -1 -1 3 11 -1 -1 7 -1 -1
-    cout<<endl;
-    cout<<endl;
-
-
-
-
-
-    return 0;
-
 }
-
-
